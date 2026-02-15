@@ -1,0 +1,11 @@
+FROM python:3.10
+
+# IMPORTANT: go INTO the backend folder
+WORKDIR /app
+
+# copy only the backend into container root
+COPY flask_backend/ .
+
+RUN pip install flask requests
+
+CMD ["python", "app.py"]

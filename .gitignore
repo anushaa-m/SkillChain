@@ -1,0 +1,27 @@
+# ---------- PYTHON ----------
+venv/
+flask_backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# local database
+flask_backend/database.json
+
+# ---------- NODE ----------
+node_modules/
+npm-debug.log*
+
+# ---------- SECRETS ----------
+.env
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+
+# ---------- IDE ----------
+.vscode/
+
+# ---------- Docker ----------
+*.log
