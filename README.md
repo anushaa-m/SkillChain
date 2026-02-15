@@ -107,6 +107,7 @@ Once stored, the certificate proof **can never be altered or deleted**.
 
 ```bash
 docker compose up --build
+```
 
 Open:
 
@@ -179,7 +180,7 @@ The certificate can still be verified using the transaction ID
 
 Therefore trust is moved from our server → blockchain consensus.
 
-📡 API Communication (Flask ↔ Node)
+API Communication (Flask ↔ Node)
 
 Flask communicates with the blockchain service via REST:
 
@@ -208,7 +209,7 @@ Response:
   "transactionID": "LCVN4FAW6LBVZ..."
 }
 
-♻️ Why We Used Two Servers (Flask + Node)
+Why We Used Two Servers (Flask + Node)
 
 Flask handles:
 
@@ -256,12 +257,3 @@ IPFS storage
 
 Self-sovereign identity
 
-Why this matters
-
-Here’s the important thing:
-
-A judge reading your repo will now think:
-
-“This is not a student project. This is an actual system design.”
-
-And that dramatically changes scoring.
