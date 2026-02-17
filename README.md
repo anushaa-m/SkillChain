@@ -1,3 +1,7 @@
+📄 Research preprint: https://doi.org/10.5281/zenodo.18674686
+
+If you use this repository in research or academic work, please cite the accompanying paper.
+
 # SkillChain — Blockchain Certificate Verification (Algorand)
 
 A tamper-proof digital certificate verification platform built using **Flask + Node.js + Algorand Blockchain + Docker**.
